@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "@one-demo/one-app",
+  "version": "1.0.0",
+  "description": "This is one app in a giant monorepo.",
+  "main": "index.js",
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "@one-demo/another-lib": "*",
+    "@one-demo/nice-lib": "*",
+    "react": "17.0.1",
+    "react-native": "^0.64.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.1.6",
+    "@rnx-kit/dep-check": "^1.5.15",
+    "@types/react": "^17.0.14",
+    "@types/react-native": "^0.64.12"
+  },
+  "rnx-kit": {
+    "reactNativeVersion": "0.64",
+    "kitType": "app",
+    "capabilities": [
+      "core-android",
+      "core-ios",
+      "react"
+    ]
+  }
+}

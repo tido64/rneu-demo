@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "@one-demo/test-app",
+  "version": "1.0.0",
+  "description": "It's a test app in a giant monorepo.",
+  "main": "index.js",
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.1",
+    "react-native": "^0.64.1"
+  },
+  "devDependencies": {
+    "@rnx-kit/dep-check": "^1.5.15"
+  }
+}

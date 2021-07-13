@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "rneu-demo",
+  "version": "1.0.0",
+  "description": "Just imagine this is a giant monorepo.",
+  "main": "index.js",
+  "author": "Me",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write --prose-wrap always **/*.{json,md}"
+  },
+  "dependencies": {
+    "@rnx-kit/dep-check": "^1.5.15",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.1.6",
+    "@react-native-community/cli": "^5.0.0",
+    "@react-native-community/cli-platform-android": "^5.0.0",
+    "@react-native-community/cli-platform-ios": "^5.0.0",
+    "react": "17.0.1",
+    "react-native": "^0.64.2",
+    "react-native-webview": "^11.4.2"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

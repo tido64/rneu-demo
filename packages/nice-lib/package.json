@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "name": "@one-demo/nice-lib",
+  "version": "1.0.0",
+  "description": "This is a nice library in a giant monorepo.",
+  "main": "index.js",
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "react": "17.0.1"
+  },
+  "peerDependencies": {
+    "react-native": "^0.63.2 || ^0.64.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.1.6",
+    "@rnx-kit/dep-check": "^1.5.15",
+    "@types/react": "^17.0.14",
+    "@types/react-native": "^0.64.12",
+    "react-native": "^0.64.2",
+    "react-native-test-app": "^0.7.0"
+  },
+  "rnx-kit": {
+    "reactNativeVersion": "^0.63 || ^0.64",
+    "reactNativeDevVersion": "0.64",
+    "capabilities": [
+      "core-android",
+      "core-ios",
+      "react",
+      "test-app"
+    ]
+  }
+}
